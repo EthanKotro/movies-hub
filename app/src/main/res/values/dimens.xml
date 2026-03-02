@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spacing -->
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="spacing_lg">24dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+
+    <!-- Card -->
+    <dimen name="card_corner_radius">16dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+
+    <!-- Poster sizes -->
+    <dimen name="poster_width">140dp</dimen>
+    <dimen name="poster_height">210dp</dimen>
+    <dimen name="poster_small_width">120dp</dimen>
+    <dimen name="poster_small_height">180dp</dimen>
+
+    <!-- Rating Badge -->
+    <dimen name="rating_badge_size">36dp</dimen>
+    <dimen name="rating_badge_text_size">11sp</dimen>
+
+    <!-- Bottom Nav -->
+    <dimen name="bottom_nav_height">64dp</dimen>
+    <dimen name="bottom_nav_icon_size">24dp</dimen>
+
+    <!-- Cast -->
+    <dimen name="cast_image_size">72dp</dimen>
+    <dimen name="cast_item_width">100dp</dimen>
+
+    <!-- Backdrop -->
+    <dimen name="backdrop_height">280dp</dimen>
+
+    <!-- Search -->
+    <dimen name="search_bar_height">48dp</dimen>
+    <dimen name="search_corner_radius">24dp</dimen>
+
+    <!-- Vertical card -->
+    <dimen name="vertical_card_height">200dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="text_title_large">22sp</dimen>
+    <dimen name="text_title_medium">18sp</dimen>
+    <dimen name="text_title_small">14sp</dimen>
+    <dimen name="text_body">14sp</dimen>
+    <dimen name="text_caption">12sp</dimen>
+    <dimen name="text_overline">10sp</dimen>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Brand Colors - Dark -->
+    <color name="primary">#FF7986CB</color>
+    <color name="primary_variant">#FF5C6BC0</color>
+    <color name="primary_light">#FF9FA8DA</color>
+    <color name="on_primary">#FF000000</color>
+
+    <!-- Secondary / Accent - Dark -->
+    <color name="secondary">#FFFFCA28</color>
+    <color name="secondary_variant">#FFFFAB00</color>
+    <color name="on_secondary">#FF000000</color>
+
+    <!-- Background & Surface - Dark -->
+    <color name="background">#FF0F0F1A</color>
+    <color name="surface">#FF1A1A2E</color>
+    <color name="surface_variant">#FF252540</color>
+    <color name="on_background">#FFE6E1E5</color>
+    <color name="on_surface">#FFE6E1E5</color>
+    <color name="on_surface_variant">#FFCAC4D0</color>
+
+    <!-- Bottom Nav - Dark -->
+    <color name="bottom_nav_bg">#FF1A1A2E</color>
+    <color name="bottom_nav_active">#FF7986CB</color>
+    <color name="bottom_nav_inactive">#FF6B6B7B</color>
+
+    <!-- Chip & Tag - Dark -->
+    <color name="chip_bg">#337986CB</color>
+    <color name="chip_text">#FF9FA8DA</color>
+
+    <!-- Shimmer - Dark -->
+    <color name="shimmer_base">#FF2A2A3E</color>
+    <color name="shimmer_highlight">#FF3A3A4E</color>
+
+    <!-- Card colors - Dark -->
+    <color name="card_background">#FF1E1E30</color>
+    <color name="card_stroke">#1AFFFFFF</color>
+
+    <!-- Search - Dark -->
+    <color name="search_bg">#FF252540</color>
+    <color name="search_hint">#FF6B6B7B</color>
+
+    <!-- Watchlist FAB - Dark -->
+    <color name="fab_bg">#FFFFCA28</color>
+    <color name="fab_icon">#FF1A1A2E</color>
+</resources>

@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">MediaVault</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_watchlist">Watchlist</string>
+
+    <!-- Home Screen -->
+    <string name="trending_now">Trending Now 🔥</string>
+    <string name="top_rated">Top Rated ⭐</string>
+    <string name="upcoming">Upcoming 🎬</string>
+    <string name="discover">Discover</string>
+    <string name="see_all">See All</string>
+    <string name="welcome_message">What are you watching today?</string>
+    <string name="recommended_for_you">Recommended for You 🎯</string>
+    <string name="genre_action">Action</string>
+    <string name="genre_comedy">Comedy</string>
+    <string name="genre_drama">Drama</string>
+    <string name="genre_scifi">Sci-Fi</string>
+
+    <!-- Search -->
+    <string name="search_hint">Search movies, TV shows…</string>
+    <string name="search_empty_title">Explore the world of cinema</string>
+    <string name="search_empty_subtitle">Search for your favorite movies and TV shows</string>
+    <string name="no_results_title">No results found</string>
+    <string name="no_results_subtitle">Try a different search term</string>
+
+    <!-- Detail -->
+    <string name="overview">Overview</string>
+    <string name="cast">Cast</string>
+    <string name="watch_trailer">Watch Trailer</string>
+    <string name="add_to_watchlist">Add to Watchlist</string>
+    <string name="remove_from_watchlist">Remove from Watchlist</string>
+    <string name="added_to_watchlist">Added to Watchlist!</string>
+    <string name="removed_from_watchlist">Removed from Watchlist</string>
+    <string name="no_trailer_available">No trailer available</string>
+    <string name="runtime_format">%s</string>
+    <string name="rating_format">%.1f</string>
+    <string name="vote_count_format">(%s votes)</string>
+
+    <!-- Watchlist -->
+    <string name="watchlist_empty_title">Your watchlist is empty</string>
+    <string name="watchlist_empty_subtitle">Start adding movies and shows to keep track of what you want to watch</string>
+    <string name="watchlist_item_removed">Item removed from watchlist</string>
+    <string name="undo">Undo</string>
+    <string name="swipe_to_delete">Swipe to remove</string>
+
+    <!-- Errors -->
+    <string name="error_loading">Something went wrong. Please try again.</string>
+    <string name="error_no_internet">No internet connection</string>
+    <string name="retry">Retry</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name">Daily Trending</string>
+    <string name="notification_channel_desc">Get notified about today\'s top trending movie</string>
+    <string name="notification_title">🎬 Today\'s Top Pick</string>
+    <string name="notification_body">Check out \"%s\" — trending right now!</string>
+
+    <!-- Misc -->
+    <string name="release_date_label">Release Date</string>
+    <string name="na">N/A</string>
+    <string name="movie">Movie</string>
+    <string name="tv_show">TV Show</string>
+
+    <!-- Missing Strings Added -->
+    <string name="trending">Trending</string>
+    <string name="no_results">No results found</string>
+    <string name="title_watchlist">Watchlist</string>
+    <string name="watchlist_empty">Your watchlist is empty</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+</resources>

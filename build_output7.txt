@@ -1,0 +1,90 @@
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:dataBindingGenBaseClassesDebug
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses FAILED
+> Task :app:processDebugResources
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:checkDebugDuplicateClasses'.
+> A failure occurred while executing com.android.build.gradle.internal.tasks.CheckDuplicatesRunnable
+   > Duplicate class androidx.lifecycle.HasDefaultViewModelProviderFactory found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.ViewModel found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.ViewModelKt found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.ViewModelLazy found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.ViewModelLazy$1 found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.ViewModelProvider found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.ViewModelProvider$Companion found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.ViewModelProvider$Factory found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.ViewModelProvider$NewInstanceFactory found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.ViewModelProvider$NewInstanceFactory$Companion found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.ViewModelProvider$OnRequeryFactory found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.ViewModelProviderGetKt found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.ViewModelStore found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.ViewModelStoreOwner found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.viewmodel.CreationExtras found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.viewmodel.CreationExtras$Empty found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.viewmodel.CreationExtras$Key found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.viewmodel.InitializerViewModelFactory found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.viewmodel.InitializerViewModelFactoryBuilder found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.viewmodel.InitializerViewModelFactoryKt found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.viewmodel.MutableCreationExtras found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.viewmodel.ViewModelFactoryDsl found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.viewmodel.ViewModelInitializer found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.viewmodel.ViewModelProviderImpl found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.viewmodel.internal.CloseableCoroutineScope found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.viewmodel.internal.CloseableCoroutineScopeKt found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.viewmodel.internal.DefaultViewModelProviderFactory found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.viewmodel.internal.JvmViewModelProviders found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.viewmodel.internal.SynchronizedObject found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.viewmodel.internal.SynchronizedObjectKt found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.viewmodel.internal.SynchronizedObject_jvmKt found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.viewmodel.internal.ViewModelImpl found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.viewmodel.internal.ViewModelProviders found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.viewmodel.internal.ViewModelProviders$ViewModelKey found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     Duplicate class androidx.lifecycle.viewmodel.internal.ViewModelProviders_jvmKt found in modules lifecycle-viewmodel-desktop-2.8.4.jar -> lifecycle-viewmodel-desktop-2.8.4 (androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.4) and lifecycle-viewmodel-release.aar -> lifecycle-viewmodel-release-runtime (androidx.lifecycle:lifecycle-viewmodel-android:2.8.4)
+     
+     Go to the documentation to learn how to <a href="d.android.com/r/tools/classpath-sync-errors">Fix dependency resolution errors</a>.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.9/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 2s
+24 actionable tasks: 3 executed, 21 up-to-date
